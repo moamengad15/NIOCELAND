@@ -1,0 +1,251 @@
+
+.about{
+  padding: 120px 30px 12
+  0px 30px;
+}
+.about .section-title-text{
+  font-size: 15px;
+  color: #555;
+  margin-top: 100px;
+}
+h1{
+  margin-bottom: 100px;
+}
+.card-img-top{
+    display: block;
+    width: 100vw;
+    height: 35vw;
+    -webkit-box-pack: center;
+
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: url(https://assets.website-files.com/5b471332a0fccf5aded82f96/5b48f0f59918ea8b73ae22ee_image-header.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.h1 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #000;
+    font-size: 54px;
+    line-height: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.blog {
+  padding: 80px 20px;
+  background-color: #fff;
+}
+
+.blog .section-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #161616;
+  .blog {
+  padding: 80px 20px;
+  background-color: #fff;
+}
+
+.blog .container.cc-center {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blog .section-title {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #555;
+
+}
+
+.blog .paragraph {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.blog .link-block {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  border: 1px solid #000;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.blog .link-block:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .blog .section-title-big {
+    font-size: 32px;
+  }
+
+  .blog .paragraph {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog {
+    padding: 50px 15px;
+  }
+
+  .blog .section-title-big {
+    font-size: 26px;
+  }
+}
+
+
+
+}
+
+
+
+
+.team .section-title{
+   font-size: 30px;
+   color: #555;
+   margin: 20px;
+   padding: auto;
+   
+}
+
+.blog .paragraph {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.blog .link-block {
+
+  margin-top: 30px;
+  padding: 12px 24px;
+
+  color: #000;
+  font-weight: 500;
+
+
+}
+
+@media (max-width: 768px) {
+  .blog .section-title-big {
+    font-size: 32px;
+  }
+
+  .blog .paragraph {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog {
+    padding: 50px 15px;
+  }
+
+  .blog .section-title-big {
+    font-size: 26px;
+  }
+}
+.team .posts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.team .posts img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .team .posts {
+    grid-template-columns: repeat(2, 1fr); /* صورتين في الصف */
+  }
+}
+
+@media (max-width: 576px) {
+  .team .posts {
+    grid-template-columns: 1fr; 
+  }
+}
+
+.separator {
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.section-title-text {
+    margin-bottom: 30px;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #000;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.paragraph {
+    margin-top: 20px;
+    font-family: 'Source Serif Pro', sans-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.contact-item {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 45px 30px;
+}
+
+.contact-number .number {
+  background-color: black;
+  color: white;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0 auto 15px;
+}
+
+.info-subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #777575;
+  margin-bottom: 5px;
+}
+
+.info-text {
+  font-size: 18px;
+  color: #000000;
+} 

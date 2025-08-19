@@ -1,0 +1,25 @@
+    <div class="container">
+        <div class="row">
+            <h4 class="section-title-text">featured POSTS</h4>
+  @for (item of items; track $index) {
+          <!-- Post 1 -->
+    <div class="col-md-6 mb-4">
+      <div class="card h-100 border-0">
+        <a href="#">
+          <img [src]="item.img" class="card-img-top" alt="">
+        </a>
+        <div class="card-body px-0">
+          <a href="#" class="text-muted small d-block mb-1">{{item.link}}</a>
+          <h5 class="card-title">
+            <a href="#" class="text-dark text-decoration-none">
+{{item.desc}}
+            </a>
+          </h5>
+           <a href="#"> {{item.authorlink}}</a>
+        </div>
+      </div>
+    </div>
+    }
+        </div>
+    </div>
+    

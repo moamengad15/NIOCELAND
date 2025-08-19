@@ -1,0 +1,53 @@
+
+.hero-section {
+
+  h1 {
+    color: #1e1e1e;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  
+  }
+  .h2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #000;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.top-post-link-block {
+    text-decoration: none;
+}
+.category-link{
+    text-decoration: none;
+    color: #292828;
+}
+.autor {
+ 
+ display: flex;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.post-author {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #0f0f0f;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+}
+
+
+
